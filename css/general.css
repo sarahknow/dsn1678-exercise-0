@@ -1,0 +1,45 @@
+
+html {
+  font: normal 100%/1.5  "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+figure {
+	background:#DADADA;
+	border:#8F8F8F solid 1px;
+}
+
+dl {
+  /* 
+ 	overflow hidden is a clear fix
+ 	It reminds the <dl> to wrap around it's floated children
+ */	
+ overflow:hidden;
+}
+
+dt {
+	float: left; 
+	clear: left;
+	width: 8em;
+}
+
+dd {
+	float: left;
+	margin:0; 
+	padding: 0;
+}
+
+h1, h2 {
+	color:#B50E37;
+}
+
+img {
+	width: 100%;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.6875;
+}
+
+
+	
